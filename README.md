@@ -18,7 +18,7 @@ If you find our work useful in your research, please consider citing:
 ```
 @article{akita2018bayesgrad,
   title={BayesGrad: Explaining Predictions of Graph Convolutional Networks},
-  author={Akita, H, and Nakago, K and Komatsu, T and Sugawara, Y and Maeda, S and Baba, Y and Kashima, H},
+  author={Akita, Hirotaka and Nakago, Kosuke and Komatsu, Tomoki and Sugawara, Yohei and Maeda, Shin-ichi and Baba, Yukino and Kashima, Hisashi},
   journal={arXiv preprint arXiv:1807.01985},
   year={2018}
 }
