@@ -1,6 +1,8 @@
 # Bayesgrad
 BayesGrad: Explaining Predictions of Graph Convolutional Networks
 
+The paper is available on arXiv, [https://arxiv.org/abs/1807.01985](https://arxiv.org/abs/1807.01985).
+
 <p float="left" align="middle">
   <img src="https://github.com/pfnet-research/bayesgrad/blob/master/assets/tox21_pyridine/6_bayes.png" width="250" /> 
   <img src="https://github.com/pfnet-research/bayesgrad/blob/master/assets/tox21_srmmp/3_bayes.png" width="250" />
@@ -9,6 +11,18 @@ BayesGrad: Explaining Predictions of Graph Convolutional Networks
 <p align="middle">
   From left: tox21 pyridine (C5H5N), tox21 SR-MMP, delaney solubility visualization.
 </p>
+
+## Citation
+If you find our work useful in your research, please consider citing:
+
+```
+@article{akita2018bayesgrad,
+  title={BayesGrad: Explaining Predictions of Graph Convolutional Networks},
+  author={Akita, Hirotaka and Nakago, Kosuke and Komatsu, Tomoki and Sugawara, Yohei and Maeda, Shin-ichi and Baba, Yukino and Kashima, Hisashi},
+  journal={arXiv preprint arXiv:1807.01985},
+  year={2018}
+}
+```
 
 ## Setup
 
@@ -151,7 +165,6 @@ python plot.py --dirpath=./results/nfpdrop_M30_conv3_unit32_b32
 Red color represents these atoms are hydrophilic, and blue color represents hydrophobic.
 Above figure is consistent with fundamental physicochemical knowledge as explained in the paper.
 
-
 ## Saliency Calculation
 
 Although only results of gradient method [6, 7, 8] are reported in the paper, 
@@ -164,6 +177,10 @@ We can apply SmoothGrad [8] and/or BayesGrad (Ours) into following algorithms.
 - Occlusion [10]
 
 The code design is inspired by [PAIR-code/saliency](https://github.com/PAIR-code/saliency).
+
+## License
+
+Our code is released under MIT License (see [LICENSE](https://github.com/pfnet-research/bayesgrad/blob/master/LICENSE) file for details).
 
 ## Reference
 
@@ -189,8 +206,3 @@ URL http://proceedings.mlr.press/v70/sundararajan17a.html.
 
 [10] Matthew D Zeiler and Rob Fergus. Visualizing and understanding convolutional networks. In
 European conference on computer vision, pp. 818–833. Springer, 2014.
-
-## Cite
-Please cite our paper if you use this code in your own work:
-
-To Be Updated.
