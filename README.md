@@ -40,8 +40,7 @@ The experiment is executed under following environment:
 conda create -n bayesgrad python=3.6.1
 source activate bayesgrad
 pip install chainer==4.2.0
-# install master branch of chainer-chemistry
-pip install git+https://github.com/pfnet-research/chainer-chemistry
+pip install chainer-chemistry==0.4.0
 conda install -c rdkit rdkit==2017.09.3.0
 pip install matplotlib==2.2.2
 pip install future==0.16.0
